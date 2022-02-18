@@ -26,14 +26,15 @@ This is equivalent to minimizing the cost function:
  which is rewritten in matrix form as 
 	``` $E =(UN)^T (UN)$ ```
 
-where ``` $U = \begin{bmatrix}
+where 
+$U = \begin{bmatrix}
 x_1 - \bar{x} & y_1 - \bar{y} \\
  . &  .\\
  . &  .\\
 x_n - \bar{x} & y_1 - \bar{y} \\
 \end{bmatrix} , N = \begin{bmatrix}
 a \\ b
-\end{bmatrix} ; \bar{x} = \frac{1}{n} \sum_{i=0}^n x_i, \bar{y} = \frac{1}{n} \sum_{i=0}^n y_i  $```
+\end{bmatrix} ; \bar{x} = \frac{1}{n} \sum_{i=0}^n x_i, \bar{y} = \frac{1}{n} \sum_{i=0}^n y_i  $
 
 We can find the analytical solution of the cost function by setting the derivative = 0, which results in this relationship $ (U^TU)N=0$.
 
